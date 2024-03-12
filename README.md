@@ -31,8 +31,17 @@ source venv/Scripts/activate
 ```
 
 3. ### В корневой дирректории создайте файл .env по образцу .env.example.
+```
+SECRET_KEY=your_secret_key
+DEBUG=True
+DB_NAME=your_database_name
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_HOST=db
+DB_PORT=5432
+```
 
-4. ### Установите зависимости:
+5. ### Установите зависимости:
 ```
 cd backend
 pip install -r requirements.txt
