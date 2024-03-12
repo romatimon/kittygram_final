@@ -30,7 +30,7 @@ python -m venv venv
 source venv/Scripts/activate
 ```
 
-3. ### В корневой дирректории создайте файл .env по образцу .env.example.
+3. ### В корневой дирректории создайте файл .env и заполните его данными:
 ```
 SECRET_KEY=your_secret_key
 DEBUG=True
